@@ -21,24 +21,6 @@ html {
     
 }
 
-.title-section {
-    display: flex;
-    padding: 80px 150px;
-    gap: 150px;
-    background-color: #1F2937;
-    align-items: stretch;
-}
-
-
-button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-    padding: 8px 32px;
-    border-radius: 8px;
-    border: none;
-}
-
-
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -51,22 +33,128 @@ button {
     text-decoration: none;
 }
 
-.title-section h1 {
+.title-section {
+    display: flex;
+    padding: 80px 150px;
+    gap: 100px;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-content button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.title-content h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
-.title-section p {
+.title-content p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.title-section img {  
-    max-width: 300px
+.title-content {
+
 }
 
-.images img {
-    border: 2px;
-    border-color: #3882F6;
+.title-image {
+    justify-content: center;
+     
+}
+
+.title-section img {  
+    max-width: 300px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.image-section h1 {
+    text-align: center;
+    margin: 48px;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.image-content img {
+    border: 4px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.image-content p {
+    color: #1F2937;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 80px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.credit {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: end;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 150px;
+    padding: 48px 150px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.call-to-action h1 {
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.call-to-action p {
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+
+.call-to-action button {
+    border: 2px solid white;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 24px;
 }
